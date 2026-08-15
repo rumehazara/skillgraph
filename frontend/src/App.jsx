@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://skillgraph-85oi.onrender.com";
 
 function App() {
   const [developers, setDevelopers] = useState([]);
