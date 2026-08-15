@@ -397,40 +397,32 @@ Loading and error handling
 
 The graph complexity is kept behind the interface so that users can interact with the application without needing to understand Cypher or graph databases.
 
-📸 Screenshots
-Developer Profile & Recommendations
+## Screenshots
 
-CognoDB Graph Query
+### Application Interface
 
-Add the actual screenshots to docs/screenshots/ before submitting the repository.
+![SkillGraph Application](docs/screenshots/homepage.png)
+
+### Graph-Powered Recommendations
+
+![SkillGraph Recommendations](docs/screenshots/recommendations.png)
 
 🎥 Demo Video
 
-A short screen recording demonstrates:
 
-Opening the SkillGraph application.
-Selecting a developer.
-Viewing the developer's current skills.
-Running project recommendations.
-Viewing projects ranked by matching skills.
-Demonstrating the underlying CognoDB graph.
-Showing the GitHub repository structure.
 
 Demo link:
-
-ADD-YOUR-DEMO-LINK-HERE
+https://skillgraph-frontend-xxxx.onrender.com
 🌐 Hosted Demo
+https://skillgraph-frontend-qf3d.onrender.com/
 
 The production application will be hosted using free-tier hosting.
 
 Frontend:
 
-ADD-FRONTEND-DEMO-LINK-HERE
+https://drive.google.com/file/d/11a5P59eMQC0Dz0hBXw9jvUqk-UYpO5eW/view?usp=drive_link
 
-Backend:
 
-ADD-BACKEND-DEMO-LINK-HERE
-🧪 Example Result
 
 For the seeded developer Aarav Sharma, SkillGraph produces:
 
@@ -500,15 +492,3 @@ React UI development
 Error handling
 Seed data management
 CognoDB integration
-
-### One important correction before you commit
-
-The README currently uses `WORKED_ON`, `BELONGS_TO`, and `REQUIRES` as the **documented graph model**. Make sure those relationship names exactly match your `scripts/seed.js` before submitting.
-
-Also, **don't put your actual CognoDB password anywhere in this README or GitHub.**
-
-After pasting and saving, run:
-
-```cmd
-cd C:\projects\skillgraph
-git status
